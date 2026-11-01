@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(Get-ChildItem -Path \"c:\\\\Aplikasi-Mobile\\\\posyandu_merpati\\\\lib\" -Recurse -Directory)",
+      "Bash(Select-Object FullName)",
+      "Bash(ConvertTo-Csv -NoTypeInformation)",
+      "Bash(Get-ChildItem \"c:\\\\Aplikasi-Mobile\\\\posyandu_merpati\\\\docs\" -File)",
+      "Bash(Select-Object Name)",
+      "Bash(Get-ChildItem -Path \"c:\\\\Aplikasi-Mobile\\\\posyandu_merpati\\\\lib\\\\features\\\\kader\" -Recurse -File)",
+      "Bash(Select-Object -ExpandProperty FullName)",
+      "Bash(dart analyze *)",
+      "Bash(Get-ChildItem -Path \"c:\\\\Aplikasi-Mobile\\\\posyandu_merpati\\\\lib\\\\features\" -Recurse -Directory)",
+      "Bash(Sort-Object)"
+    ]
+  }
+}
